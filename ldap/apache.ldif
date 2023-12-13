@@ -1,0 +1,14 @@
+dn: ou=service-accounts,dc=insat,dc=uc,dc=tn
+objectClass: organizationalUnit
+
+dn: cn=apache,ou=service-accounts,dc=insat,dc=uc,dc=tn
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: apache
+sn: auth-user
+givenName: Apache
+userPassword: {SSHA}kHRIh/XxKkX2EzJZz/dY7LugS5CfhOHQ
+
+

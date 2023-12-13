@@ -1,0 +1,6 @@
+[submodule "kerberos"]
+	path = kerberos
+	url = https://github.com/arwaouriemmi/kerberos
+[submodule "dns_Kali"]
+	path = dns_Kali
+	url = https://github.com/arwaouriemmi/dns_Kali

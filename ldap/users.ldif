@@ -1,0 +1,43 @@
+dn: cn=teachers,ou=groups,dc=insat,dc=uc,dc=tn
+objectClass: posixGroup
+objectClass: top
+gidNumber: 6001
+cn: teachers
+
+dn: cn=students,ou=groups,dc=insat,dc=uc,dc=tn
+objectClass: posixGroup
+objectClass: top
+gidNumber: 6002
+cn: students
+
+dn: uid=ons.ouahchi,ou=users,dc=insat,dc=uc,dc=tn
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uidNumber: 6002
+gidNumber: 6002
+homeDirectory: /home/ons 
+loginShell: /bin/bash
+uid: ons.ouahchi
+sn: Ouahchi
+cn: Ons Ouahchi
+mail: ons.ouahchi@insat.ucar.tn
+userPassword: {SSHA}b/1ZMvdn6M0o+jiH84UGtIcyH/mN1pec
+
+dn: uid=souhaieb.youssfi,ou=users,dc=insat,dc=uc,dc=tn
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uidNumber: 6001
+gidNumber: 6001
+homeDirectory: /home/souhaieb 
+loginShell: /bin/bash
+uid: souhaieb.youssfi 
+sn: Youssfi
+cn: Souhaieb Youssfi
+mail: souhaieb.youssfi@insat.ucar.tn
+userPassword: {SSHA}t/E9euh2d1HxugMhzkjVn1t6qNexjHuf

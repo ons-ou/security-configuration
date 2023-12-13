@@ -1,0 +1,18 @@
+dn: uid=arwa.oueriemmi,ou=students,dc=insat,dc=uc,dc=tn
+changetype: modify
+replace: objectClass
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: top
+-
+add: uidNumber
+uidNumber: 6003
+-
+add: gidNumber
+gidNumber: 6002
+-
+add: homeDirectory
+homeDirectory: /home/arwa 
+-
+add: loginShell
+loginShell: /bin/bash

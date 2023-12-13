@@ -1,0 +1,5 @@
+dn: ou=users,dc=insat,dc=uc,dc=tn
+objectClass: organizationalUnit
+
+dn: ou=groups,dc=insat,dc=uc,dc=tn
+objectClass: organizationalUnit
